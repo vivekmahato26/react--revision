@@ -1,0 +1,104 @@
+.app {
+  padding: 0 1.5rem;
+}
+
+.header {
+  padding: 0 8rem;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.nav-item {
+  padding: 0 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  color: #ff5a6e;
+}
+
+
+.modal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.dflex {
+  display: flex;
+}
+
+.dnone {
+  display: none;
+}
+
+.title {
+  border: 1px solid black;
+}
+
+.title p {
+  margin: 0;
+}
+
+.child {
+  display: block;
+  height: 50px;
+  background-color: #ededed;
+  transition: all 500ms linear;
+}
+
+
+
+.scale0 {
+  height: 0;
+  transform: scaleY(0);
+}
+
+.scale1 {
+  height: 50px;
+  transform: scaleY(1);
+}
+.rotate0 {
+  transform: rotate(0);
+}
+
+.rotate90 {
+  transform: rotate(90deg);
+}
+
+.add {
+  transition: all 500ms linear;
+  display: inline;
+}
+
+
+.container {
+  background-color: red;
+}
